@@ -8,8 +8,11 @@ export default function Login() {
     <div className="outer-container">
       <div className="login-outer-container">
         <div className="login-title">
-          <h2>
+          <h2 style={{cursor:"pointer"}}>
             <strong>LOGIN</strong>
+          </h2>
+          <h2 className="shift-signup">
+            <strong>SIGNUP</strong>
           </h2>
         </div>
         <div className="email">
